@@ -12,17 +12,13 @@ Fruity slicer采样器插入后是空的 , 没有声音 , 需要手动加载采�
 
 ### Function Buttons功能按钮
 
-**BPM / BEATS控件** - 设置原始循环的BPM\(速度\)和节拍数\(长度\) . 如果loop中有这些信息数据 , 会自动设置为对应的值 . 否则Slicer会尝试猜测Loop的速度和长度\(循环越长 , 检测的准确性越低\) . 
+**BPM / BEATS控件** - 设置原始循环的BPM\(速度\)和节拍数\(长度\) . 如果loop中有这些信息数据 , 会自动设置为对应的值 . 否则Slicer会尝试猜测Loop的速度和长度\(循环越长 , 检测的准确性越低\) .
 
 **打开并切片采样按钮\(Sample\)**
 
 * Load sample - 加载采样
-* Save Original sample - 保存原始采样
-* Save Processed sample - 保存处理采样
-
-
-
-
+* Save Original sample - 保存原始采样 , 不包含切片信息 . 
+* Save Processed sample - 保存处理采样 , 保存带有切片信息的采样 . 
 
 
 
