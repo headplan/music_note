@@ -14,11 +14,23 @@ Fruity slicer采样器插入后是空的 , 没有声音 , 需要手动加载采�
 
 **BPM / BEATS控件** - 设置原始循环的BPM\(速度\)和节拍数\(长度\) . 如果loop中有这些信息数据 , 会自动设置为对应的值 . 否则Slicer会尝试猜测Loop的速度和长度\(循环越长 , 检测的准确性越低\) .
 
-**打开并切片采样按钮\(Sample\)**
+**切片采样按钮\(Sample\)**
 
-* Load sample - 加载采样
+* Load sample - 加载采样 . 支持的格式有\(\*.wav, Recycle \*.rex / \*.rcy / \*.rx2, etc.\) . **注** : 如果采样已经包含切片标记 , 将使用标记 . .mp3文件不能包含切片标记 , 只有.wav文件可以 . 
 * Save Original sample - 保存原始采样 , 不包含切片信息 . 
 * Save Processed sample - 保存处理采样 , 保存带有切片信息的采样 . 
+
+**节拍切片器按钮\(Slicing\)**
+
+* **Use Sample Built-In Slicing** - 使用样本内置切片 . 使用从样本加载的切片 . 这一般是最佳的选择 . 
+* **Dull / Medium / Sharp Auto-slicing** - 使用切片阈值的三个预定义值 , 对Loop进行自动切片的三个选项 . 分别为粗糙/普通/精细 . 
+* **1/6, 1/4, 1/3 beat ... Beat** - 不去自动检测 , 直接对采用进行量化的切片 . 
+* **No Slicing** - 整个Loop被视为单个切片 . 
+* **Zero cross check slices** - 零交叉检查切片 . 如果在播放切片时听到咔嗒/啪嗒声 . 则可以在将Loop与上述任何选项一起切片后调用此选项 , 会将切片标记对齐到最近的零交叉处 . 
+
+**编辑\(Edit\)**
+
+
 
 
 
