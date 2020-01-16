@@ -35,21 +35,19 @@ Fruity slicer采样器插入后是空的 , 没有声音 , 需要手动加载采�
 
 **拉伸方式\(Stretching method\)**
 
-**Fill gaps**
+**Fill gaps** - 这是FL7之前的Fruity Slicer中使用的原始"beatslicer"算法的标准模式\(A\) . 
 
-**Alternate fill gaps**
+**Alternate fill gaps** - 这是FL7之前的Fruity Slicer中使用的备用"beatslicer"算法\(B\) . 
 
-**Pro default**
+**Pro default** - **"**默认"模式旨在与各种输入信号一起使用 . 
 
-**Pro transient**
+**Pro transient** - 在某些声音中 , 瞬变对于整体声音至关重要\(例如 , 打击乐\) , 此模式尝试将transient保留在输入信号中 . 
 
-**Transient**
+**Transient** - 这是一种较低的CPU使用率的瞬态保留拉伸方法 , 与FL7之前的Fruity Slicer中的模式C相对应 . 
 
-**Tonal** - 
+**Tonal** - 专注于音调\(pitched\)部分 , 为输入信号提供更高的质量 , 相当于FL7之前Fruity Slicer的模式D . 
 
-**Monophonic** - 专用于单声道输入信号\(例如人声或独奏乐器\) , 并为此类信号提供最佳效果 . 音调质量是通过保留共振峰来实现的 . 
+**Monophonic** - 专用于单声道输入信号\(例如人声或独奏乐器\) , 并为此类信号提供最佳效果 . 音调质量是通过保留共振峰来实现的 .
 
 **Speech** - 此模式针对语音进行了优化\(使用"单声道"模式进行演唱\)
-
-
 
