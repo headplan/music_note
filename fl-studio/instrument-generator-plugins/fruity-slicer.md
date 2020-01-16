@@ -35,19 +35,28 @@ Fruity slicer采样器插入后是空的 , 没有声音 , 需要手动加载采�
 
 **拉伸方式\(Stretching method\)**
 
-**Fill gaps** - 这是FL7之前的Fruity Slicer中使用的原始"beatslicer"算法的标准模式\(A\) . 
+* **Fill gaps** - 这是FL7之前的Fruity Slicer中使用的原始"beatslicer"算法的标准模式\(A\) .
+* **Alternate fill gaps** - 这是FL7之前的Fruity Slicer中使用的备用"beatslicer"算法\(B\) .
+* **Pro default** - **"**默认"模式旨在与各种输入信号一起使用 .
+* **Pro transient** - 在某些声音中 , 瞬变对于整体声音至关重要\(例如 , 打击乐\) , 此模式尝试将transient保留在输入信号中 .
+* **Transient** - 这是一种较低的CPU使用率的瞬态保留拉伸方法 , 与FL7之前的Fruity Slicer中的模式C相对应 .
+* **Tonal** - 专注于音调\(pitched\)部分 , 为输入信号提供更高的质量 , 相当于FL7之前Fruity Slicer的模式D .
+* **Monophonic** - 专用于单声道输入信号\(例如人声或独奏乐器\) , 并为此类信号提供最佳效果 . 音调质量是通过保留共振峰来实现的 .
+* **Speech** - 此模式针对语音进行了优化\(使用"单声道"模式进行演唱\)
 
-**Alternate fill gaps** - 这是FL7之前的Fruity Slicer中使用的备用"beatslicer"算法\(B\) . 
+**视图\(View\)**
 
-**Pro default** - **"**默认"模式旨在与各种输入信号一起使用 . 
+* **Spectrum** - 将切片显示更改为"频率频谱"模式 . 
 
-**Pro transient** - 在某些声音中 , 瞬变对于整体声音至关重要\(例如 , 打击乐\) , 此模式尝试将transient保留在输入信号中 . 
+**将节拍转储到钢琴卷帘按钮\(Dump beat to piano roll button\)**
 
-**Transient** - 这是一种较低的CPU使用率的瞬态保留拉伸方法 , 与FL7之前的Fruity Slicer中的模式C相对应 . 
+通过在其中写入一系列音符\(每个音符对应一个片段\) , 使节拍“转储”到钢琴卷帘中 . 下面是预设列表 : 
 
-**Tonal** - 专注于音调\(pitched\)部分 , 为输入信号提供更高的质量 , 相当于FL7之前Fruity Slicer的模式D . 
 
-**Monophonic** - 专用于单声道输入信号\(例如人声或独奏乐器\) , 并为此类信号提供最佳效果 . 音调质量是通过保留共振峰来实现的 .
 
-**Speech** - 此模式针对语音进行了优化\(使用"单声道"模式进行演唱\)
+**Auto Dump switch** - 启用后切片器将在加载后以及调整循环的速度/长度时自动转储切片的节拍 . 
+
+**Auto-fit switch** - 启用后将调整加载的循环以适合当前加载的项目速度 . 
+
+**DeClick** - 对切​​片应用很小的淡入/淡出量 , 以消除单击/弹出伪像 . 
 
