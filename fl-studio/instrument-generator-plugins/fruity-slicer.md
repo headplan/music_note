@@ -30,7 +30,26 @@ Fruity slicer采样器插入后是空的 , 没有声音 , 需要手动加载采�
 
 **编辑\(Edit\)**
 
+* **Open in Edison** - 将当前切片发送到Edison\(集成的编辑器\)
+* **Open BeatSlicer** - 将当前的切片和groove文件发送到注册的Beat切片器\(例如BeatSlicer或BeatCreator\) , 以进行进一步的切片编辑和优化 . 功能按钮的第一个就是用来导入groove文件的 . 
 
+**拉伸方式\(Stretching method\)**
+
+**Fill gaps**
+
+**Alternate fill gaps**
+
+**Pro default**
+
+**Pro transient**
+
+**Transient**
+
+**Tonal** - 
+
+**Monophonic** - 专用于单声道输入信号\(例如人声或独奏乐器\) , 并为此类信号提供最佳效果 . 音调质量是通过保留共振峰来实现的 . 
+
+**Speech** - 此模式针对语音进行了优化\(使用"单声道"模式进行演唱\)
 
 
 
